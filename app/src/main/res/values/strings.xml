@@ -3,5 +3,8 @@
     <string name="profile_title">My profile</string>
     <string name="profile_skip">Skip</string>
     <string name="profile_subtitle">This information helps calculate your activity more accurately.</string>
+    <string name="gender_drop_down_title">Gender</string>
+    <string name="gender_drop_down_female">Female</string>
+    <string name="gender_drop_down_male">Male</string>
 
 </resources>
