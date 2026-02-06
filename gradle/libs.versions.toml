@@ -9,6 +9,7 @@ lifecycleRuntimeKtx = "2.10.0"
 activityCompose = "1.12.2"
 composeBom = "2024.09.00"
 core_splashscreen = "1.2.0"
+koin_version = "4.1.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,6 +27,8 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core_splashscreen" }
+koin =  { group = "io.insert-koin", name = "koin-android",  version.ref = "koin_version"}
+koin-compose =  { group = "io.insert-koin", name = "koin-androidx-compose",  version.ref = "koin_version"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
